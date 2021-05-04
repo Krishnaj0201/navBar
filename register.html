@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <meta name="content" content="usefull for html and css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <form>
+        <div id="con" class="container contain">
+            <div id="row" class="row-container">
+                <div id="col" class="column-container column">
+                    <label for="firstname">First Name:</label>
+                </div>
+                <div id="col" class="column-container column">
+                    <input  class="input-border" type="text" placeholder="UserNmae" name="firstname" required autocomplete="on">
+                </div>
+
+            <div id="row" class="row-container">
+                <div id="col" class="column-container column">
+                    <label for="lastnmae">Last Nmae:</label>
+                </div>
+                <div class="column-container column"></div>
+                    <input  class="input-border" type="text" placeholder="LastNmae" name="lastname" required autocomplete="on">
+            </div>
+
+            <div class="row-container">
+                <div class="column-container column">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="column-container column"></div>
+                    <input  class="input-border" type="email" placeholder="Email" name="email" required autocomplete="on">
+            </div>
+
+            <div class="row-container">
+                <div class="column-container column">
+                    <label for="Dob">Date of birth:</label>
+                </div>
+                <div class="column-container column"></div>
+                    <input  class="input-border" type="datetime-local" placeholder="Date of birth" name="Dob" autocomplete="on" required>
+            </div>
+
+            <div class="row-container">
+                <div class="column-container column">
+                    <label for="gender">Gender:</label>
+                </div>
+                <div class="column-container column"> 
+                    <input  class="input-border" type="radio" id="male" name="gender" value="male" autocomplete="on">
+                    <label for="male">Male</label>
+                    <input  class="input-border" type="radio" id="female" name="gender" value="female" autocomplete="on">
+                    <label for="female">Female</label><br>
+                </div>  
+
+                <div class="row-container">
+                    <div class="column-container column">
+                        <label for="Dob">About:</label>
+                    </div>
+                    <div class="column-container column"></div>
+                        <input  class="input-border" type="text"  name="Dob">
+                </div>
+
+                
+                <div class="row-container">
+            
+                    <div class="column-container column sub">
+                        <input type="submit">
+                    </div>
+                </div>
+                  
+            </div>
+
+        </div>
+    </form>  
+    </body>
+</html>
